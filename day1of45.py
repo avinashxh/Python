@@ -1,4 +1,4 @@
-#keywords
+#nonlocal keyword
 def sample():
     name = "Abinash,"
 
@@ -12,3 +12,14 @@ def sample():
     print(name)
 
 sample()
+
+#raise keyword
+def divide(x, y):
+    if y == 0:
+        raise ZeroDivisionError("Cannot divide by zero!")
+    return x / y
+
+try:
+    result = divide(10, 0)
+except ZeroDivisionError as e:
+    print("Exception occurred:", e)
