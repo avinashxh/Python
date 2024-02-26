@@ -35,7 +35,6 @@ print(c)
 
 #7
 n = int(input())
-d = 0
 s =0
 while(n!=0):
     d = n%10
